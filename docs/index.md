@@ -2,18 +2,17 @@
 
 [![Build Status](https://travis-ci.org/eclipsefdn/jekyll-theme-eclipsefdn.svg?branch=master)](https://travis-ci.org/eclipsefdn/jekyll-theme-eclipsefdn)
 
-This theme is currently experimental, but intended to provide the branding for Jakarta EE projects using GitHub pages for their documentation.
-This Jekyll theme is intended to copy the theme of the main https://jakarte.ee website so the projects use branding that is consistent with
-the main website.
+This theme is currently experimental, but intended to provide the branding for Eclipse projects using GitHub pages for their documentation.
+This Jekyll theme is intended to copy the theme of the main https://www.eclipse.org website so the projects use branding that is consistent with the main website.
 
 
 ![Screenshot](https://raw.githubusercontent.com/eclipsefdn/jekyll-theme-eclipsefdn/master/screenshot.png)
 
 # Using the theme on your GitHub pages site
 
-Jakarta EE projects typically publish their documentation using the GitHub pages functionality of the source code repository on GitHub. 
+Eclipse projects typically publish their documentation using the GitHub pages functionality of the source code repository on GitHub. 
 This involves pushing the documentation materials to the `gh-pages` branch in the repository. Once content has been pushed to this branch
-it is publish statically at `https://eclipse-ee4j.github.io/<projectname>`. Without a theme, the site will be published using a default
+it is publish statically at `https://eclipse.github.io/<projectname>`. Without a theme, the site will be published using a default
 theme.
 
 To use this theme in GitHub pages, simply specify:

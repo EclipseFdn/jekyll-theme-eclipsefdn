@@ -4,8 +4,7 @@
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-eclipsefdn.svg)](https://badge.fury.io/rb/jekyll-theme-eclipsefdn)
 
 This theme is currently experimental, but intended to provide the branding for Eclipse projects using GitHub pages for their documentation.
-This Jekyll theme is intended to copy the theme of the main https://jakarte.ee website so the projects use branding that is consistent with
-the main website.
+This Jekyll theme is intended to copy the theme of the main https://www.eclipse.org website so the projects use branding that is consistent with the main website.
 
 
 ![Screenshot](https://raw.githubusercontent.com/eclipsefdn/jekyll-theme-eclipsefdn/master/screenshot.png)
