@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-eclipsefdn"
-  spec.version       = "0.0.0"
+  spec.version       = "0.0.1"
   spec.authors       = ["Christopher Guindon"]
   spec.email         = ["chris.guindon@eclipse-foundation.org"]
 
