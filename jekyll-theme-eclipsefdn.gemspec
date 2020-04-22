@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-jakarta-ee"
-  spec.version       = "0.1.3"
-  spec.authors       = ["Jonathan Gallimore"]
-  spec.email         = ["jon@jrg.me.uk"]
+  spec.name          = "jekyll-theme-eclipsefdn"
+  spec.version       = "0.0.0"
+  spec.authors       = ["Christopher Guindon"]
+  spec.email         = ["chris.guindon@eclipse-foundation.org"]
 
-  spec.summary       = "Jakarta EE theme for project pages"
-  spec.homepage      = "https://github.com/jakartaee/jekyll-theme-jakarta-ee"
+  spec.summary       = "Eclipse Foundation theme for project pages"
+  spec.homepage      = "https://github.com/eclipsefdn/jekyll-theme-eclipsefdn"
   spec.license       = "EPL-2.0"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }

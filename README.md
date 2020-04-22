@@ -1,25 +1,25 @@
-# jekyll-theme-jakarta-ee
+# jekyll-theme-eclipsefdn
 
-[![Build Status](https://travis-ci.org/jakartaee/jekyll-theme-jakarta-ee.svg?branch=master)](https://travis-ci.org/jakartaee/jekyll-theme-jakarta-ee)
-[![Gem Version](https://badge.fury.io/rb/jekyll-theme-jakarta-ee.svg)](https://badge.fury.io/rb/jekyll-theme-jakarta-ee)
+[![Build Status](https://travis-ci.org/eclipsefdn/jekyll-theme-eclipsefdn.svg?branch=master)](https://travis-ci.org/eclipsefdn/jekyll-theme-eclipsefdn)
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-eclipsefdn.svg)](https://badge.fury.io/rb/jekyll-theme-eclipsefdn)
 
-This theme is currently experimental, but intended to provide the branding for Jakarta EE projects using GitHub pages for their documentation.
+This theme is currently experimental, but intended to provide the branding for Eclipse projects using GitHub pages for their documentation.
 This Jekyll theme is intended to copy the theme of the main https://jakarte.ee website so the projects use branding that is consistent with
 the main website.
 
 
-![Screenshot](https://raw.githubusercontent.com/jakartaee/jekyll-theme-jakarta-ee/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/eclipsefdn/jekyll-theme-eclipsefdn/master/screenshot.png)
 
 # Using the theme on your GitHub pages site
 
-Jakarta EE projects typically publish their documentation using the GitHub pages functionality of the source code repository on GitHub. 
+Eclipse projects typically publish their documentation using the GitHub pages functionality of the source code repository on GitHub. 
 This involves pushing the documentation materials to the `gh-pages` branch in the repository. Once content has been pushed to this branch
 it is publish statically at `https://eclipse-ee4j.github.io/<projectname>`. Without a theme, the site will be published using a default
 theme.
 
 To use this theme in GitHub pages, simply specify:
 
-`remote_theme: jakartaee/jekyll-theme-jakarta-ee` in `_config.yml` at the root of the `gh-pages` branch.
+`remote_theme: eclipsefdn/jekyll-theme-eclipsefdn` in `_config.yml` at the root of the `gh-pages` branch.
 
 Once the project has been set to use the theme, the project team should review each page on the site to ensure it renders correctly.
 Any problems with the theme should be raised as an issue on this project, and pull requests are most welcome.
@@ -83,7 +83,7 @@ Instructions:
 ````
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-theme-jakarta-ee'
+gem 'jekyll-theme-eclipsefdn'
 ````
 
 * (1 time only) Install the `bundler` gem: `gem install bundler`
@@ -92,13 +92,13 @@ gem 'jekyll-theme-jakarta-ee'
 
 * Switch the theme in `_config.yml`. Change this
 ````
-remote_theme: jakartaee/jekyll-theme-jakarta-ee
+remote_theme: eclipsefdn/jekyll-theme-eclipsefdn
 ````
 
 to
 
 ````
-theme: jekyll-theme-jakarta-ee
+theme: jekyll-theme-eclipsefdn
 ````
 
 This will make sure the locally installed Gem will be used to render the site.
@@ -117,11 +117,11 @@ Pre-requisites:
 
 * Install the dependencies: `bundle install`
 
-* Build the Gem: `gem build jekyll-theme-jakarta-ee.gemspec`
+* Build the Gem: `gem build jekyll-theme-eclipsefdn.gemspec`
 
 Pushing the Gem to RubyGems
 
-* Update the version number in `jekyll-theme-jakarta-ee.gemspec`
+* Update the version number in `jekyll-theme-eclipsefdn.gemspec`
 * Create a tag with the new version number
 * Push commit and tag to github `git push origin master --tags`
 
