@@ -1,6 +1,5 @@
 # jekyll-theme-eclipsefdn
 
-[![Build Status](https://travis-ci.org/eclipsefdn/jekyll-theme-eclipsefdn.svg?branch=master)](https://travis-ci.org/eclipsefdn/jekyll-theme-eclipsefdn)
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-eclipsefdn.svg)](https://badge.fury.io/rb/jekyll-theme-eclipsefdn)
 
 This theme is currently experimental, but intended to provide the branding for Eclipse projects using GitHub pages for their documentation.
