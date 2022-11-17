@@ -1,13 +1,5 @@
 # jekyll-theme-eclipsefdn
 
----
-**NOTE**
-
-This project was migrated to [Eclipse Gitlab](https://gitlab.eclipse.org/eclipsefdn/it/webdev/jekyll-theme-eclipsefdn) on October 14, 2021.
-
----
-
-
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-eclipsefdn.svg)](https://badge.fury.io/rb/jekyll-theme-eclipsefdn)
 
 This theme is currently experimental, but intended to provide the branding for Eclipse projects using GitHub pages for their documentation.
