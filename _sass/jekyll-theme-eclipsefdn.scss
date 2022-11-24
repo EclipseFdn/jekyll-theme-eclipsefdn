@@ -20,3 +20,15 @@ td {
     border: 1px solid #ebebeb;
 }
 
+#custom-search-form {
+    height: 16px;
+    width: 95%;
+    .btn-search {
+        font-size: 0;
+        padding: 6px 27px;
+        width: auto;
+        vertical-align: middle;
+    }
+}
+
+
