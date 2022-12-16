@@ -10,7 +10,7 @@ This Jekyll theme is intended to copy the theme of the main https://www.eclipse.
 
 # Using the theme on your GitHub pages site
 
-Eclipse projects typically publish their documentation using the GitHub pages functionality of the source code repository on GitHub. 
+Eclipse projects typically publish their documentation using the GitHub pages functionality of the source code repository on GitHub.
 This involves pushing the documentation materials to the `gh-pages` branch in the repository. Once content has been pushed to this branch
 it is publish statically at `https://eclipse-ee4j.github.io/<projectname>`. Without a theme, the site will be published using a default
 theme.
@@ -115,11 +115,10 @@ Pre-requisites:
 
 * Install the dependencies: `bundle install`
 
-* Build the Gem: `gem build jekyll-theme-eclipsefdn.gemspec`
-
 Pushing the Gem to RubyGems
 
-* Update the version number in `jekyll-theme-eclipsefdn.gemspec`
-* Create a tag with the new version number
-* Push commit and tag to github `git push origin master --tags`
-
+1. Update the version number in: `jekyll-theme-eclipsefdn.gemspec`.
+2. Build the Gem: `gem build jekyll-theme-eclipsefdn.gemspec`
+3. Commit and push the new version: `git add . && git commit -s -m "prepare for a new release"`
+4. Create a git tag with version name and push commits and tags to remote repository.
+5. Publish gem: `gem push jekyll-theme-eclipsefdn-*.gem`
